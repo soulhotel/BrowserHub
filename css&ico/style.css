@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px; /* Add margin to all sides */
+}
+
+button:hover {
+    background-color: #1b1b1b;
+    transform: scale(1.01);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.custom-button {
+    width: 25px; /* Adjust button width */
+    height: 25px; /* Adjust button height */
+}
+
+.undocloseico,
+.privateico,
+.windowico,
+.tabico,
+.profileico,
+.fullico,
+.closetabico {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Background images */
+.undocloseico { background-image: url("undoclose.png"); }
+.privateico { background-image: url("private.png"); }
+.windowico { background-image: url("window.png"); }
+.tabico { background-image: url("tab.png"); }
+.profileico { background-image: url("profile.png"); }
+.fullico { background-image: url("full.png"); }
+.closetabico { background-image: url("closetab.png"); }
