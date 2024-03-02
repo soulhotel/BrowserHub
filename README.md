@@ -19,11 +19,14 @@ Im very much an amateur with JS, but I can confidently say every function works 
 
 Open Private Window, Undo Closed tabs, everything good on DEV edition of FF:
 
-
-
 https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/f9b8bd9f-b913-406f-9e6d-1f0902803105
 
+-Free for use. Will update if I get it onto addon store.
+-Full Approved, everything works!
 
+v1.1 - Visual Updates
 
-Free for use. Will update if I get it onto addon store.
+![Screenshot_1](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/b2a69a04-f0ff-40f3-9fff-0d5e39e42923)
+
+![Screenshot_2](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/7c5b3ed9-6c98-4271-9e74-94fe359b5af4)
 
