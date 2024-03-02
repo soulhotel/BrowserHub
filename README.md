@@ -13,16 +13,14 @@ https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/121f
 
 
 Im very much an amateur with JS, but I can confidently say every function works for Firefox Instances. But unsure on Open Profile Folder Button with Chrome Browser.
-- side note, opening a new private* window will not work when sideloading this extension. It works on  DEV edition, ESR, Nightly, and the non-Mozilla Firefox forks.
-- Default Release wont let me bypass the permission until the extension is approved by MOZ Add On reviewer.
-- Currently waiting.
+- ~~side note, opening a new private* window will not work when sideloading this extension. It works on  DEV edition, ESR, Nightly, and the non-Mozilla Firefox forks.~~
+- ~~Default Release wont let me bypass the permission until the extension is approved by MOZ Add On reviewer.~~
+- ~~Will update when it onto add on store.~~
+- Approved and published to the add on store. https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
+- Free to use. Free to fork.
 
-Open Private Window, Undo Closed tabs, everything good on DEV edition of FF:
-
+Dev Edition:
 https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/f9b8bd9f-b913-406f-9e6d-1f0902803105
-
--Free for use. Will update if I get it onto addon store.
--Full Approved, everything works!
 
 v1.1 - Visual Updates
 
