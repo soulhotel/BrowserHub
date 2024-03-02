@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Browser Hub",
-  "version": "1.0",
+  "version": "1.2",
   "description": "7 in 1 button hub, for users for userChrome. Control Window, Tab, more",
   "icons": {
     "48": "css&ico/icon.png"

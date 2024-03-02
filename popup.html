@@ -7,13 +7,24 @@
   </style>
 </head>
 <body>
-  <button id="closetabbtn" class="closetabico custom-button"></button>
-  <button id="undoclosebtn" class="undocloseico custom-button"></button>
-  <button id="profilebtn" class="profileico custom-button"></button>
-  <button id="fullbtn" class="fullico custom-button"></button>  
-  <button id="privatebtn" class="privateico custom-button"></button>
-  <button id="windowbtn" class="windowico custom-button"></button>
-  <button id="tabbtn" class="tabico custom-button"></button>
+  <div id="buttonLayout" class="button-container">
+    <button id="closetabbtn" class="closetabico custom-button" title="Close Tab"></button>
+    <button id="undoclosebtn" class="undocloseico custom-button" title="Undo Close Tab"></button>
+    <button id="profilebtn" class="profileico custom-button" title="Profile Folder"></button>
+    <button id="fullbtn" class="fullico custom-button" title="Full Screen"></button>
+    <button id="privatebtn" class="privateico custom-button" title="Private Window"></button>
+    <button id="windowbtn" class="windowico custom-button" title="New Window"></button>
+    <button id="tabbtn" class="tabico custom-button" title="New Tab">                                                                                     	</button>
+  </div>
+  <div id="listLayout" class="layout-container" style="display: none;">
+    <div id="tabli" class="list-item" data-text="Open New Tab"></div>
+    <div id="windowli" class="list-item" data-text="Open New Window"></div>
+    <div id="privateli" class="list-item" data-text="Open Private Window"></div>
+    <div id="fullli" class="list-item" data-text="Full Screen"></div>
+    <div id="profileli" class="list-item" data-text="Open Profile Folder"></div>
+    <div id="undocloseli" class="list-item" data-text="Undo Closed Tab"></div>
+    <div id="closeli" class="list-item" data-text="Close This Tab"></div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
