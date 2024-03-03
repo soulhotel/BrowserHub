@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Hub",
+  "version": "1.4",
+  "description": "7 in 1 button hub, for users for userChrome. Control Window, Tab, more",
+  "icons": {
+    "48": "css&ico/icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "sessions",
+    "downloads",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "css&ico/icon.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "browserhub@soulhotel.net"
+    }
+  }
+}
