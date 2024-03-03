@@ -1,29 +1,30 @@
-# Browser Hub (Firefox Extension)
+# Browser Hub (Firefox Extension) V 1.4 on Add On Store
 7 in 1 Button Hub. Users of userChrome will appreciate this. Very simple browser functions from 1 small button.
 
-New Tab - New Window - New Private Window - Fullscreen button - Open Profile folder - Close Current tab - Undo Closed Tab
+New Tab - New Window - New Private Window - Fullscreen button - Select URL for new tabs / new windows - Close Current tab - Undo Closed Tab
 
+![2](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/712fe893-fdc9-4767-84b9-bf676e12f3f7)
+![4](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/deaae4dc-ddfe-40e8-8e9e-98ece3504cfa)<br>
+V 1.3 ->
+![1a](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/6cdd2cc0-2492-4cad-adb3-0e6f05112a31)
+CURRENT V 1.4->
+![1b](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/33b79e30-c10c-4e5a-9471-f42fa384bd7e)
+![3](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/5d8a3d63-c5b9-4217-a894-5319ff8d5e40)
 
-https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/19b1aac6-7c81-41eb-9d90-7f1aa06d6a65
+V 1.4
+- Browser HUB will now remember your decisions!
+- - You can change to context list view, close it, and it will always open in that view
+- Replaced open profile folder with an option to set new tab, new window URL
+- - it wasnt functioning properly cross platform
+- Set New Tab / New Window URL is self explanatory
+- Once you set a new tab / new window URL, it will always use that URL
+- - You can change the URL anytime, and it will remember!
+- Visual Update
+- created a new icon for save URL button
+- updated fullscreen icon to fit theme
+- created new private window icon
+- enjoy!
 
-
-![308874807-4ee83214-c328-4687-93bd-dc59d9bbf563](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/c778d6c5-acb4-40ac-b608-a27b24c8ca05)
-
-
-Im very much an amateur with JS, but I can confidently say every function works for Firefox Instances. But unsure on Open Profile Folder Button with Chrome Browser.
-
-- ~~side note, opening a new private* window will not work when sideloading this extension. It works on DEV edition, ESR, Nightly, and the non-Mozilla Firefox forks.~~
-- ~~Default Release wont let me bypass the permission until the extension is approved by MOZ Add On reviewer.~~
-- ~~Will update when it onto add on store.~~
-- Approved and published to the add on store. https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
-- Free to use. Free to fork. Everything works.
-
-Dev Edition:
-
-
-
-v1.1 - Visual Updates
-![Screenshot_2](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/ac3fce98-2b91-4f83-bbce-9e3508ec0c4d)
-
-![Screenshot_1](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/f49b2afa-f5ee-4824-bb9a-f728d147b96f)
-
+- Every function works for Firefox Instances.<br>
+- Free to use. Free to fork. Everything works.<br>
+https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
