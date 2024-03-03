@@ -1,17 +1,14 @@
-# Browser Hub (Firefox Extension) V 1.4 on Add On Store
-7 in 1 Button Hub. Users of userChrome will appreciate this. Very simple browser functions from 1 small button.
+New Tab
+New Window
+New Private Window
+Fullscreen button
+Set New Tab, New Window URL
+Close Current tab
+Undo Closed Tabs
 
-New Tab - New Window - New Private Window - Fullscreen button - Select URL for new tabs / new windows - Close Current tab - Undo Closed Tab
+7 in 1 button hub, for users for userChrome.
 
-![2](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/712fe893-fdc9-4767-84b9-bf676e12f3f7)
-![4](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/deaae4dc-ddfe-40e8-8e9e-98ece3504cfa)<br>
-V 1.3 ->
-![1a](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/6cdd2cc0-2492-4cad-adb3-0e6f05112a31)
-CURRENT V 1.4->
-![1b](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/33b79e30-c10c-4e5a-9471-f42fa384bd7e)
-![3](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/5d8a3d63-c5b9-4217-a894-5319ff8d5e40)
-
-V 1.4
+V1.4
 - Browser HUB will now remember your decisions!
 - - You can change to context list view, close it, and it will always open in that view
 - Replaced open profile folder with an option to set new tab, new window URL
@@ -25,6 +22,3 @@ V 1.4
 - created new private window icon
 - enjoy!
 
-- Every function works for Firefox Instances.<br>
-- Free to use. Free to fork. Everything works.<br>
-https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
