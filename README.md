@@ -32,5 +32,5 @@ V 1.4
 - enjoy!
 
 - Every function works for Firefox Instances.<br>
-- Free to use. Free to fork. Everything works.<br>
+- Free to use. Free to fork.<br>
 https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
