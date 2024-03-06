@@ -10,6 +10,12 @@ V 1.3 ->
 CURRENT V 1.4->
 ![1b](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/33b79e30-c10c-4e5a-9471-f42fa384bd7e)
 ![3](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/5d8a3d63-c5b9-4217-a894-5319ff8d5e40)
+![close tab](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/34dd1b75-a3c8-4ec2-9b3e-9af89eb1dd75)
+![Screenshot_3](https://github.com/soulhotel/BrowserHub-Firefox-Extension-/assets/155501797/58b822eb-a0f5-4852-9c24-c43b4cfb03f4)
+
+v 1.5
+- right click anywhere, for option to close current tab
+- right click links, to save the link to Browser Hub
 
 V 1.4
 - Browser HUB will now remember your decisions!
