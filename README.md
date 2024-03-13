@@ -5,7 +5,7 @@
 <div align="center">
   
 ![Mozilla Add-on Downloads](https://img.shields.io/amo/dw/browserhub%40soulhotel.net)
-[Add On Store](https://addons.mozilla.org/en-US/firefox/addon/browser-hub/)
+[Add On Page](https://addons.mozilla.org/en-US/firefox/addon/browser-hub/)
 ![Mozilla Add-on Downloads](https://img.shields.io/amo/dw/minmaxclose%40soulhotel.net)
 </div>
 
