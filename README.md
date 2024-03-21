@@ -1,6 +1,6 @@
 # <p align="center"> Browser Hub (Firefox Extension)</p>
-### <p align="center">8 in 1 Button Hub. Very simple browser functions from 1 small button</p>
-##### <p align="center">`New Tab - New Window - New Private Window - Fullscreen button`</p>
+### <p align="center">9 in 1 Button Hub. Very simple browser functions from 1 small button</p>
+##### <p align="center">`New Tab - New Window - New Private Window - Unload Tab - Fullscreen button`</p>
 ##### <p align="center">`Select URL for new tabs / new windows - Close Current tab - Undo Closed Tab - View All Tabs`</p>
 <div align="center">
   
