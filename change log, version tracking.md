@@ -2,6 +2,15 @@
 
 New Tab - New Window - New Private Window - See All Tabs - Fullscreen button - Set NewTab/Window URL - Close Current tab - Undo Closed Tab
 
+v1.8.5
+
+- Added support for light and dark mode
+- Right click a tab, and choose to put it to sleep
+
+v1.7.5
+
+- New tabs/windows will use firefox default
+
 v1.7
 
 - tab walker: tabs playing audio now have an audio indicator
