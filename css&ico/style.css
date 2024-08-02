@@ -1,0 +1,179 @@
+body { font-family: Inter, sans-serif;
+background-color: black; 
+margin: 0; overflow: hidden;
+width: auto; height: auto;
+}
+* { scrollbar-width: 2px !important; }
+*::-moz-scrollbar-thumb:hover { width: 4px !important; }
+body, #overlay, #tabList {
+  scrollbar-color: transparent transparent !important;
+}
+/* ------------------------ buttons ------------------------- */
+
+#buttonLayout { display: flex; }
+
+.button-container {
+display: flex; flex-direction: row;
+width: auto; background-color: rgba(0,0,0,0);
+}
+
+button {
+background-color: rgba(0,0,0,0);color: white; text-align: center;
+border: none; margin: 2px; transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {background-color: rgba(23, 23, 23,0.7);}
+button:active {transform: scale(0.95);}
+
+.tabico, .windowico, .privateico,
+.tabwalkerico, .fullico, .saveurlico,
+.undocloseico, .closetabico, .lightdarkico
+{
+width: 30px; height: 30px;
+background-size: cover; border-radius: 18%;
+flex-direction: row; justify-content: center; align-items: center;
+transition: background-color 0.3s, transform 0.2s;
+}
+
+.undocloseico { background-image: url("undoclose.png"); }
+.privateico { background-image: url("private.png"); }
+.windowico { background-image: url("window.png"); }
+.tabico { background-image: url("tab.png"); }
+.saveurlico { background-image: url("saveurl.png"); }
+.fullico { background-image: url("full.png"); }
+.closetabico { background-image: url("closetab.png"); }
+.tabwalkerico { background-image: url("tabwalker.gif"); }
+.lightdarkico { background-image: url("lightdark.png"); }
+
+.light-mode .undocloseico { background-image: url("undoclosel.png"); }
+.light-mode .privateico { background-image: url("privatel.png"); }
+.light-mode .windowico { background-image: url("windowl.png"); }
+.light-mode .tabico { background-image: url("tabl.png"); }
+.light-mode .saveurlico { background-image: url("saveurll.png"); }
+.light-mode .fullico { background-image: url("fulll.png"); }
+.light-mode .closetabico { background-image: url("closetabl.png"); }
+.light-mode .tabwalkerico { background-image: url("tabwalkerl.gif"); }
+.light-mode .lightdarkico { background-image: url("darklight.png"); }
+
+/* ------------------------ Layouts ------------------------- */
+
+#listLayout {
+display: none; overflow: hidden; width: auto;
+flex-direction: column; align-items: flex-start;
+background-color: rgba(0,0,0,0); font-size: 14px;
+}
+
+.list-item {
+display: block; cursor: pointer; width: 225px;
+background-color: rgba(0,0,0,0); color: white; text-align: center;
+border: none; margin: 5px;
+padding: 2px; padding-left: 10px; padding-right:10px;
+transition: background-color 0.3s, transform 0.2s;
+}
+.list-item:hover {color: #FBF268; transform: scale(1.1);}
+.list-item:active {transform: scale(1.2);}
+
+.light-mode .list-item {color: black;}
+
+/* -------------------- Dialog box for selecting folder --------------------- */
+
+.dialog-container {
+display: none; position: absolute; z-index: 999;
+flex-direction: column; align-items: center; justify-content: center;
+top: 0; left: 0; width: auto; height: auto;
+background-color: rgba(0,0,0,0); color: white;
+}
+
+.dialog-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+
+.dialog-input::placeholder { color: white; }
+.dialog-input {
+padding: 8px; border: 0px solid #ccc; box-sizing: border-box;
+margin-bottom: 10px; width: 100%;
+background-color: #1C1C1C;
+color: white;
+}
+
+.dialog-buttons {
+text-align: right; justify-content: space-between;
+display: flex; width: 100%;
+}
+.dialog-button[id="selectURLButton"] {
+padding: 8px; flex: 1; margin-left: 5px;
+background-color: #91DFF0; color: #000000;
+border: none; border-radius: 3px;
+cursor: pointer;
+}
+
+.dialog-button[id="resetURLButton"] {
+padding: 8px; flex: 1;
+background-color: #FBF268; color: #000000;
+border: none; border-radius: 3px;
+cursor: pointer; margin-left: 5px;
+}
+
+/* ------------------------ tabwalker overlay ------------------------- */
+
+.overlay {
+position: fixed; z-index: 9998; display: none;
+top: 36px; bottom: 0; left: 0; right:0; 
+justify-content: center; align-items: center; overflow: auto;
+}
+  
+ul {
+list-style-type: none; display: none;
+overflow-x: hidden;  overflow-y: auto;
+padding: 0; padding-top: 5px;
+width:302px; height:100%;
+color: #ffffff;
+}
+
+.light-mode .tablistul {background-color: #d5dee8;}
+  
+li { cursor: default; color: #ffffff; }
+li:hover { color: #FBF268; transform: scale(1.02); }
+
+.light-mode li {color: #000000;}
+
+.tab-list-item {
+display: flex; align-items: center;  margin-bottom:9px; 
+white-space: nowrap; overflow: hidden;
+text-overflow: ellipsis;
+max-width: 284px;
+}
+
+.tab-list-item img {
+width: 20px; height: 20px;
+max-width: 20px; max-height: 20px;
+margin-right:9px; margin-left:9px;
+}
+
+.tab-list-item span {
+display: inline-block; /* Make the span a block-level element */
+font-size: 16px;}
+
+
+
+/* ------------------------  ------------------------- */
+
+
+
+/* ------------------------  ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #91DFF0 #FBF268 */

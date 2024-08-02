@@ -1,6 +1,6 @@
-# 8 in 1 Button Hub.
+# 9 in 1 Button Hub.
 
-New Tab - New Window - New Private Window - See All Tabs - Fullscreen button - Set NewTab/Window URL - Close Current tab - Undo Closed Tab
+New Tab - New Window - New Private Window - See All Tabs - Put Tab to Sleep - Fullscreen button - Set NewTab/Window URL - Close Current tab - Undo Closed Tab
 
 v1.8.5
 

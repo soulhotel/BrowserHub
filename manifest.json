@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Hub",
+  "version": "1.8.8",
+  "description": "9 in 1 button hub, for users for userChrome. Control Window, Tab, more",
+  "icons": {
+    "48": "css&ico/icon-light.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "sessions",
+    "downloads",
+    "storage",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "css&ico/icon-light.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "commands": {
+    "open_tab_walker": {
+      "suggested_key": {
+        "default": "F2"
+      },
+      "description": "Open Tab Walker"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "browserhub@soulhotel.net"
+    }
+  }
+}
