@@ -12,7 +12,7 @@ Buttons:
 - Select URL to use for new tabs and new windows
 - Close current tab
 - Reopen last closed tab
-- View all tabs (with built in navigation, closing, muting, etc)
+- View all tabs (with built in navigation, closing, muting, etc.. tabs filtered by current window)
 - Layout switcher (list view or button view)
 
 https://addons.mozilla.org/en-US/firefox/addon/browser-hub/
